@@ -1,0 +1,74 @@
+body{
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 5%;
+}
+
+.modal{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgb(0,0,0,.2);
+    width: 470px;
+    padding: 3%;
+    gap: 3%;
+    display: flex;
+}   
+
+.icon{
+    background: rgb(212, 212, 212);
+    color: rgb(164, 168, 175);
+    border-radius: 50%;
+    height: 42px;
+    width: 42px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: royalblue;
+    font-size: 26px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+button{
+    cursor: pointer;
+    padding: 8px 16px;
+    border-radius: 8px;
+}
+.continue{
+    background-color: rgb(50, 87, 250);
+    color: white;
+    border: none;
+}
+.cancel{
+    color:rgb(50, 87, 250);
+    border: 1px solid #ddd;
+    background-color: white;
+}
+.close-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    color: #707070;
+    border: none;
+    flex-shrink: 0;
+    font-size: 20px;
+
+    
+}
+.header, .text{
+    font-size: large;
+    margin-bottom: 3%;
+    
+}
+.header{
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}

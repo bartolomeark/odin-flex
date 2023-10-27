@@ -1,0 +1,71 @@
+body{
+    display: flex;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.container{
+    display: flex;
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+    
+}
+.sidebar {
+    height: 458px; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: absolute; /* Fixed Sidebar (stay in place on scroll) */
+    left: 0;
+    background-color: #264ed1; /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    padding: 0px 0px;
+    gap: 2%;
+  }
+.card{
+    display: flex;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3%;
+    border: 1px solid #bbb8b8;
+    box-shadow: #bbb8b8;
+
+}
+.main {
+    margin-left: 160px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    background-color: purple;
+    padding: 3%;
+    margin: 0px;
+    color: white;
+    font-weight: bold;
+    display: flex;
+  align-items: center;
+  padding: 0 16px;
+  font-size: 32px;
+  font-weight: 900;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    color: rgb(224, 61, 224);
+    background-color: #eee;
+    padding: 2%;
+    font-weight: 300;
+}
